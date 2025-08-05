@@ -11,7 +11,7 @@ export function SingIn() {
   function onSubmit(e: React.FormEvent) {
     e.preventDefault()
 
-     console.log(email, password)
+    console.log(email, password)
   }
 
   return (
