@@ -1,5 +1,5 @@
-export function App(){
-  return(
-    <h1>Refund</h1>
-  )
+import { Routes } from './routes'
+
+export function App() {
+  return <Routes />
 }
