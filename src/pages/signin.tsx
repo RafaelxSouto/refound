@@ -1,4 +1,5 @@
 import { Input } from '../components/Input'
+import { Button } from '../components/Button'
 
 export function SingIn() {
   return (
@@ -10,12 +11,9 @@ export function SingIn() {
         placeholder="seu@email.com"
       />
 
-      <Input
-        required
-        legend="senha"
-        type="password"
-        placeholder="Ra1@.-"
-      />
+      <Input required legend="senha" type="password" placeholder="Ra1@.-" />
+
+      <Button>Entrar</Button>
     </form>
   )
 }
