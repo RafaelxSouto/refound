@@ -1,5 +1,3 @@
-export function App(){
-  return(
-    <h1>Refund</h1>
-  )
+export function App() {
+  return <h1>Refund</h1>
 }
