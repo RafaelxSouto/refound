@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 
 import { CATEGORIES, CATEGORIES_KEYS } from '../utils/categories'
 import { Input } from '../components/Input'
@@ -15,6 +15,8 @@ export function Refund() {
   const [category, setCategory] = useState('')
 
   const navigate = useNavigate()
+  const params = useParams<{ id: string }>()
+  console.log(params)
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault()
